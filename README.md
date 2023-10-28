@@ -1,4 +1,4 @@
-# NVE-DGCNN (Normal Vector Enhanced Deep Graph Convolutional Neural Network) for 3D Surface Defect Segmentation**
+# NVE-DGCNN (Normal Vector Enhanced Deep Graph Convolutional Neural Network) for 3D Surface Defect Segmentation
 ![Alt Text](https://github.com/fardinbh/NVE-DGCNN/blob/main/images/model.jpg?raw=true)
 ---
 
