@@ -23,7 +23,7 @@ Incorporated in this repo is a 3D point cloud dataset curated at Dr. Amin Hammad
 
 3. **Augmentation**: To enhance the dataset, point clouds are flipped along the YZ plane.
 
-![Alt Text] (https://github.com/fardinbh/NVE-DGCNN/blob/main/images/Annotation.jpg?raw=true)
+![Alt Text](https://github.com/fardinbh/NVE-DGCNN/blob/main/images/Annotation.jpg?raw=true)
 ---
 
 ## Data Pre-processing
@@ -33,8 +33,6 @@ Two distinct approaches have been employed to prepare the dataset for the CNN's 
 1. **XYZRGBL Conversion**: The original dataset files are transformed into data label files, presenting 2D matrices with XYZRGBL on each line. Each of these parts is then split into blocks, with normalized Y surface location values added. Each point gets represented as a 7-dimensional vector.
 
 2. **Normal Vector Addition**: A hand-crafted point feature, the normal vector (Nx, Ny, Nz), is integrated for the NVE-DGCNN's MLP classifier. Research has shown that including these normal vectors can potentially enhance the performance of CNN networks in semantic segmentation tasks.
-
-The data blocks are sized based on the defect dimensions in the dataset, typically ranging from 40 cm × 40 cm on the XZ plane, with the defect depth as the third dimension.
 
 ---
 
