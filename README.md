@@ -1,7 +1,5 @@
-# NVE-DGCNN
-
-**Normal Vector Enhanced Deep Graph Convolutional Neural Network for 3D Surface Defect Segmentation**
-![Alt Text](https://github.com/fardinbh/NVE-DGCNN/raw/main/images/model.tiff)
+# NVE-DGCNN (Normal Vector Enhanced Deep Graph Convolutional Neural Network) for 3D Surface Defect Segmentation**
+![Alt Text](https://github.com/fardinbh/NVE-DGCNN/blob/main/images/model.jpg?raw=true)
 ---
 
 ## Overview
@@ -25,6 +23,7 @@ Incorporated in this repo is a 3D point cloud dataset curated at Dr. Amin Hammad
 
 3. **Augmentation**: To enhance the dataset, point clouds are flipped along the YZ plane.
 
+![Alt Text] (https://github.com/fardinbh/NVE-DGCNN/blob/main/images/Annotation.jpg?raw=true)
 ---
 
 ## Data Pre-processing
@@ -50,11 +49,10 @@ The segmentation model of DGCNN comprises a sequence of three EdgeConv layers fo
 To validate the model's accuracy, unseen dataset portions, exempt from the training and evaluation phases, are used. Performance metrics such as the confusion matrix, overall accuracy, recall, precision, F1 score, and Intersection over Union (IoU) are utilized to assess the model's segmentation capabilities. Emphasis is placed on recall given the critical nature of detecting actual defect points in concrete surface inspection.
 NVE-DGCNN resulted in **98.56%** and **96.50%** recalls for semantic segmentation of cracks and spalls, respectively.
 
-
+![Alt Text](https://github.com/fardinbh/NVE-DGCNN/blob/main/images/Test.png?raw=true)
 ---
 
 ## Publication
 
-If you find this work beneficial or use it in your projects, please consider citing:
 
 
