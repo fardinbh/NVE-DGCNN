@@ -1,7 +1,7 @@
 # NVE-DGCNN
 
-**Normal Vector Enhanced Deep Graph Convolutional Neural Network for 3D Concrete Defect Segmentation**
-
+**Normal Vector Enhanced Deep Graph Convolutional Neural Network for 3D Surface Defect Segmentation**
+![Alt Text](relative/path/to/image.jpg)
 ---
 
 ## Overview
@@ -48,7 +48,8 @@ The segmentation model of DGCNN comprises a sequence of three EdgeConv layers fo
 ## Testing
 
 To validate the model's accuracy, unseen dataset portions, exempt from the training and evaluation phases, are used. Performance metrics such as the confusion matrix, overall accuracy, recall, precision, F1 score, and Intersection over Union (IoU) are utilized to assess the model's segmentation capabilities. Emphasis is placed on recall given the critical nature of detecting actual defect points in concrete surface inspection.
-NVE-DGCNN resulted in 98.56% and 96.50% recalls for semantic segmentation of cracks and spalls, respectively.
+NVE-DGCNN resulted in **98.56%** and **96.50%** recalls for semantic segmentation of cracks and spalls, respectively.
+
 
 ---
 
