@@ -9,6 +9,7 @@ This repository provides an implementation of the Normal Vector Enhanced DGCNN (
 Dataset used in this repo is a 3D point cloud dataset curated at Dr. Amin Hammad's lab, featuring 102 segments from four reinforced concrete bridges in Montreal, scanned using the FARO Focus3D scanner.
 
 **Environment:**
+This repository is designed for utilization on a Compute Canada cluster.
 - TensorFlow-GPU: 1.15.1
 - CUDA: 11.0
 - Python: 3.6
