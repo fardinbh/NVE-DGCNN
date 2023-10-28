@@ -6,7 +6,7 @@
 
 This repository provides an implementation of the Normal Vector Enhanced DGCNN (NVE-DGCNN), an adapted version of the DGCNN, for semantic segmentation of concrete surface defects, primarily focusing on spalls and cracks. This method is a part of the research conducted by Fardin Bahreini, Ph.D., at Concordia University under the supervision of Dr. Amin Hammad.
 
-Incorporated in this repo is a 3D point cloud dataset curated at Dr. Amin Hammad's lab, featuring 102 segments from four reinforced concrete bridges in Montreal, scanned using the FARO Focus3D scanner.
+Dataset used in this repo is a 3D point cloud dataset curated at Dr. Amin Hammad's lab, featuring 102 segments from four reinforced concrete bridges in Montreal, scanned using the FARO Focus3D scanner.
 
 **Environment:**
 - TensorFlow-GPU: 1.15.1
