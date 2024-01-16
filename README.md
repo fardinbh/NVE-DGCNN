@@ -54,7 +54,8 @@ NVE-DGCNN resulted in `98.56%` and `96.50%` recalls for semantic segmentation of
 ## Publication
 
 Bahreini, F. and Hammad, A., “Dynamic Graph CNN Based Semantic Segmentation of Concrete Defects and As-inspected Modeling” Journal of
-Automation in Construction (Under Review 2023)
+Automation in Construction (2024)
+https://doi.org/10.1016/j.autcon.2024.105282
 
 Bahreini, F. and Hammad, A., “Point Cloud Semantic Segmentation of Concrete Surface Defects Using Dynamic Graph CNN” In Proceedings of the 38th ISARC,
 Dubai, UAE (2021)
